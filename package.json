@@ -4,8 +4,8 @@
   "main": "server.js",
   "scripts": {
     "test": "node test.js",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "node api.js && nodemon server.js",
+    "start": "node api.js && node server.js"
   },
   "keywords": [],
   "author": "",
